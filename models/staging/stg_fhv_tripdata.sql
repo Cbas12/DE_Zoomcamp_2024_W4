@@ -2,7 +2,7 @@
 
 select * 
 from {{ source('staging','fhv_non_partitoned_2019') }}
-where EXTRACT(YEAR FROM pickup_datetime) = 2019
+--where EXTRACT(YEAR FROM pickup_datetime) = 2019
 --limit 700
 
 
