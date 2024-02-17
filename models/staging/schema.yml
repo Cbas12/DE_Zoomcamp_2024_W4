@@ -9,6 +9,7 @@ sources:
 
       # loaded_at_field: record_loaded_at
     tables:
+      - name: fhv_non_partitoned_2019
       - name: green_taxi_2022_non_partitoned
       - name: yellow_tripdata_non_partitoned
          # freshness:
